@@ -38,7 +38,7 @@ class MemberServiceIntegrationTest {
     }
 
     @Test
-    public void dupliacteJoinTest() {
+    void dupliacteJoinTest() {
         // given
         Member member1 = new Member();
         member1.setName("duplicated name");
